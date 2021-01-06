@@ -2,12 +2,12 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-#include "functions.h"
+
 
 int main()
 {
-    LabInfo();
 
+labinfo();
     calculate(23,45);
     Check(0);
 
