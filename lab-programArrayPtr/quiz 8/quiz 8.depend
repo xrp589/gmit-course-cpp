@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1612475546 source:c:\users\ronan\gmit-course-cpp\lab-programarrayptr\quiz 8\main.cpp
+	<iomanip>
+	<iostream>
+
