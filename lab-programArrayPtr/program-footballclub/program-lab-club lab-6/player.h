@@ -1,9 +1,12 @@
-
+#pragma once
 #include <iostream>
-#define player.h_included
+//#define player.h_included
+#define football_club.h_included
 #ifndef player.h_included
 #endif player.h
+#include <iomanip>
 
+using namespace std;
 
 
 class PlayerClass{
@@ -13,21 +16,18 @@ private:
     string forename;
     string surname;
     string position;
-    int mobileNumber;
+    string mobileNumber;
 
 
 
     public:
 
-    Playerclass (string forename,string surname,string position,int mobileNumber){
+    PlayerClass (string forename,string surname,string position,string mobileNumber){
     this->forename = forename;
     this->surname = surname;
     this-> position =  position;
     this-> mobileNumber =  mobileNumber;
     }
-   // PlayerClass (int mobileNumber){
-   //this-> mobileNumber =  mobileNumber;
-   // }
 
 
     string getforename(){
@@ -41,11 +41,12 @@ private:
    string getposition(){
    return position;
    }
-   int getmobileNumber(){
+   string getmobileNumber(){
    return mobileNumber;
 }
 
    void printPlayerInfo(){
+       cout<<"\nPLAYER PERSONAL INFO\n"<<endl;
    cout<<forename<<endl;
    cout<<surname<<endl;
    cout<< position<<endl;

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1615536003 source:c:\users\ronan\gmit-course-cpp\lab-programarrayptr\program-lab-club\football_club.cpp
+
+1615536654 source:c:\users\ronan\gmit-course-cpp\lab-programarrayptr\program-lab-club\main.cpp
+	<iostream>
+	<iomanip>
+	"football_club.h"
+	"player.h"
+
+1615537071 c:\users\ronan\gmit-course-cpp\lab-programarrayptr\program-lab-club\football_club.h
+	<iostream>
+
+1615535978 source:c:\users\ronan\gmit-course-cpp\lab-programarrayptr\program-lab-club\player.cpp
+	"player.h"
+
+1615562434 c:\users\ronan\gmit-course-cpp\lab-programarrayptr\program-lab-club\player.h
+	<iostream>
+	<iomanip>
+
