@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1615652527 source:c:\users\ronan\onedrive - gmit\c++\lab_6_rob\main.cpp
+	<iostream>
+	<iomanip>
+	"footballClub.h"
+	"player.h"
+
+1615653906 c:\users\ronan\onedrive - gmit\c++\lab_6_rob\footballclub.h
+	<iostream>
+
+1615653845 c:\users\ronan\onedrive - gmit\c++\lab_6_rob\player.h
+
