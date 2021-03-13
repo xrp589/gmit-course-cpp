@@ -1,10 +1,8 @@
 #pragma once
-#include <iostream>
-//#define player.h_included
 #define football_club.h_included
 #ifndef player.h_included
 #endif player.h
-#include <iomanip>
+
 
 using namespace std;
 
@@ -56,3 +54,4 @@ private:
 
 
 };
+

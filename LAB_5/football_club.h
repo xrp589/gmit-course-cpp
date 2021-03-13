@@ -4,8 +4,8 @@ using namespace std;
 #define football_club.h_included
 #ifndef football_club.h_included
 #endif football_club.h
-#include "player.h"
-#include <string>
+//#include "player.h"
+//#include <string>
 class FootballClub{
 
 private:
@@ -13,12 +13,13 @@ private:
     string clubname;
     string district;
     string stripColour;
-    string player squad["0 Rob","1 BoB","2 Huzie","3 FoB","4 pat","5 shane","6 mick"];
-    string player team =[5];
+
+
+
 
 public:
 
-    FootballClub (string clubname,string district,string stripColour,string player squad){
+    FootballClub (string clubname,string district,string stripColour){
     this->clubname = clubname;
     this->district = district;
 
@@ -51,10 +52,7 @@ public:
 
    }
 
-  void addplayer(player temp,int position){
-  team[position].setName(temp.getName());
-   team[position].setDOB(temp.getDOB());
-  }
+
 
 };
 
