@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1609892114 source:c:\users\ronan\gmit-course-cpp\lab-programarrayptr\lab3\main.cpp
-	<iostream>
-	<cmath>
-	<string>
-	"functions.h"
-
-1609892263 c:\users\ronan\gmit-course-cpp\lab-programarrayptr\lab3\functions.h
-
