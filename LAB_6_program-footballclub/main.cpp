@@ -1,24 +1,30 @@
 #include <iostream>
 #include <iomanip>
-
-using namespace std;
 #include "footballClub.h"
-#include "player.h"
+#include "Player.h"
+using namespace std;
+
 
 
 
 int main(){
 
-    FootballClub object1("Deel Rovers","Cross","Maroon and White","bob");
-    object1.printInfo();
-
-
-    PlayerClass Pclass("Dan","Theman","Full_Back","354 8734567");
+PlayerClass Pclass("Dan","Theman","Full_Back","354 8734567");
     Pclass.printPlayerInfo();
 
 
 
-    int numsquad=40;
+    FootballClub object1("Deel Rovers","Cross","Maroon and White","bob","");
+    object1.printInfo();
+    object1.printteam();
+
+
+   // PlayerClass Pclass("Dan","Theman","Full_Back","354 8734567");
+    //Pclass.printPlayerInfo();
+
+
+
+    //int numsquad=40;
    // FootballClub player1;
    // player1.addplayer();
 
